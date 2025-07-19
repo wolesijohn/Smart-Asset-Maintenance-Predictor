@@ -1,0 +1,10 @@
+Equipment_ID,Failure_Date,Component,Severity
+EQ003,2025-07-18,Engine,Medium
+EQ004,2025-07-18,Battery,Low
+EQ005,2025-07-18,Engine,Low
+EQ007,2025-07-18,Filter,Medium
+EQ011,2025-07-18,Battery,Low
+EQ012,2025-07-18,Engine,Low
+EQ013,2025-07-18,Filter,Low
+EQ014,2025-07-18,Engine,Medium
+EQ016,2025-07-18,Battery,Medium

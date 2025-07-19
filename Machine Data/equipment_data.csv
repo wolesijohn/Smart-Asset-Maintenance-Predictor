@@ -1,0 +1,21 @@
+Equipment_ID,Type,Location,Manufacturer,Purchase_Date,Expected_Life_Years
+EQ001,Tower Light,Kano,Cummins,2021-10-04,8
+EQ002,Generator,Kano,Cummins,2023-03-14,6
+EQ003,Tower Light,Lagos,Honda,2021-05-16,6
+EQ004,Tower Light,Lagos,Cummins,2020-08-31,5
+EQ005,Generator,Kano,Honda,2022-01-13,6
+EQ006,Generator,Abuja,Mikano,2022-12-15,9
+EQ007,Tower Light,Abuja,Honda,2021-12-26,6
+EQ008,Compressor,Lagos,Mikano,2023-06-04,8
+EQ009,Tower Light,Kano,Mikano,2021-12-17,8
+EQ010,Tower Light,Lagos,CAT,2022-03-24,8
+EQ011,Tower Light,Lagos,Honda,2021-10-19,8
+EQ012,Tower Light,Port Harcourt,CAT,2021-11-15,9
+EQ013,Generator,Port Harcourt,Honda,2023-06-04,7
+EQ014,Tower Light,Port Harcourt,Honda,2023-01-10,5
+EQ015,Compressor,Abuja,CAT,2021-12-20,8
+EQ016,Generator,Kano,CAT,2022-06-21,6
+EQ017,Compressor,Kano,Honda,2023-03-08,8
+EQ018,Compressor,Kano,Cummins,2022-11-20,6
+EQ019,Compressor,Kano,Mikano,2022-07-04,6
+EQ020,Compressor,Port Harcourt,CAT,2021-04-14,8
