@@ -36,7 +36,9 @@ try:
     failure_summary = failure_summary[['Equipment_ID', 'Failure_Flag']]
 
     print("Merging dataframes...")
-    merged_df = equipment_data[['Equipment_ID', 'Purchase_Date']].merge(usage_summary, on='Equipment_ID', how='left')
+    # Modified to include Type, Manufacturer, and Location
+    merged_df = equipment_data[['Equipment_ID', 'Type', 'Manufacturer', 'Location', 'Purchase_Date']].merge(
+        usage_summary, on='Equipment_ID', how='left')
     merged_df = merged_df.merge(latest_maintenance, on='Equipment_ID', how='left')
     merged_df = merged_df.merge(failure_summary, on='Equipment_ID', how='left').fillna({'Failure_Flag': 0})
 
