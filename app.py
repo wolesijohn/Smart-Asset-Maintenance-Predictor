@@ -20,9 +20,8 @@ st.markdown("Predict maintenance needs using historical usage and asset features
 with st.sidebar:
     st.header("🔍 Filter Equipment")
     type_filter = st.multiselect("Type", options=df["Type"].unique(), default=list(df["Type"].unique()))
-    location_filter = st.multiselect("Location", options=df["Location"].unique(), default=list(df["Location"].unique()))
     manu_filter = st.multiselect("Manufacturer", options=df["Manufacturer"].unique(), default=list(df["Manufacturer"].unique()))
-
+    location_filter = st.multiselect("Location", options=df["Location"].unique(), default=list(df["Location"].unique()))
 # Filter data
 filtered_df = df[
     df["Type"].isin(type_filter) &
