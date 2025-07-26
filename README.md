@@ -17,6 +17,8 @@ Maintenance Forecast:
 Predict next maintenance date
  
 Flag high-risk equipment
+
+Dashboard Activation: To run the project, type 'streamlit run app.py' in the terminal
  
 Failure Risk Model:
  
